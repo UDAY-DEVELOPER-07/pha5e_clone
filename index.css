@@ -1,0 +1,71 @@
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202024;
+}
+@font-face {
+    font-family: 'Stapel Semi Expanded';
+    src: url('assets/fonts/Stapel-SemiExpandedBlack.woff') format('woff');
+}
+.navbar-brand {
+    font-family: 'Stapel Semi Expanded';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+.text-sec div{
+    font-family: 'Stapel Semi Expanded';
+    padding: 0;
+    font-size: 6.5rem;
+    line-height: 92%;
+    color: white;
+    
+}
+.text-w{
+    width: fit-content;
+    height: min-content;
+    z-index: 4;
+}
+.text-sec {
+    width: fit-content;
+    pointer-events: none;
+}
+.container {
+    height: 100%;
+}
+.img-main-section{
+    height: 100%;
+    width: 100%;
+}
+.img-sec{
+    height: 50%;
+    width: 50%;
+}
+#hover-img{
+    height: 45%;
+    width: 40%;
+    position: relative;
+    top: 55%;
+    left: 25%; 
+}
+
+
+#hover-img2{
+    height: 35%;
+    width: 35%;
+    position: relative;
+    top: 0;
+    left: 45%;
+  }  
